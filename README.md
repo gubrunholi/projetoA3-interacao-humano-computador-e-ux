@@ -271,10 +271,10 @@ Contendo:
 
 ## 👨‍💻 Autores
 
-**[Antonio Augusto]**(https://github.com/auguxtodev)
-**[Gustavo Brunholi]**(https://github.com/gubrunholi)
-**[Henry Silva]**(https://github.com/Henrysilva123)
-**[Yuji]**(https://github.com/YujiScripts)
+- [**Antonio Augusto**](https://github.com/auguxtodev)
+- [**Gustavo Brunholi**](https://github.com/gubrunholi)
+- [**Henry Silva**](https://github.com/Henrysilva123)
+- [**Yuji**](https://github.com/YujiScripts)
 
 Projeto desenvolvido para fins acadêmicos na disciplina de **Interação Humano-Computador (IHC)**.
 
