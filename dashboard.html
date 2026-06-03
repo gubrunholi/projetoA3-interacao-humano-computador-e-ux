@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explorar — StreamHub</title>
+<meta name="description" content="Explore streams ao vivo no StreamHub.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">StreamHub</span></a>
+    <div class="nav-search">
+      <input id="nav-search-input" type="search" placeholder="Buscar streams, criadores ou categorias..." aria-label="Buscar">
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="nav-link" href="index.html"><span class="lbl">Início</span></a>
+      <a class="nav-link active" href="dashboard.html"><span class="lbl">Explorar</span></a>
+      <button id="theme-toggle" class="icon-btn" title="Alternar tema" aria-label="Alternar tema">☀️</button>
+      <span id="nav-session" style="display:flex;gap:6px;align-items:center;"></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h1 class="section-title">Explorar streams</h1>
+          <p class="section-sub">Descubra novos criadores e categorias em alta agora.</p>
+        </div>
+      </div>
+      <div id="chips" class="chips" style="margin-bottom:28px;"></div>
+      <div id="grid-streams" class="grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">StreamHub</span></div>
+  <p>Projeto acadêmico de IHC &amp; UX — © 2026 StreamHub.</p>
+</footer>
+
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

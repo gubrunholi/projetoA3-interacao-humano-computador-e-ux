@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StreamHub — A nova era do streaming ao vivo</title>
+<meta name="description" content="StreamHub: descubra criadores, assista lives e participe do chat em uma plataforma de streaming moderna, acessível e responsiva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="StreamHub — início">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">StreamHub</span>
+    </a>
+    <div class="nav-search">
+      <input id="nav-search-input" type="search" placeholder="Buscar streams, criadores ou categorias..." aria-label="Buscar">
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="nav-link active" href="index.html"><span class="lbl">Início</span></a>
+      <a class="nav-link" href="dashboard.html"><span class="lbl">Explorar</span></a>
+      <button id="theme-toggle" class="icon-btn" title="Alternar tema" aria-label="Alternar tema">☀️</button>
+      <span id="nav-session" style="display:flex;gap:6px;align-items:center;"></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <span class="orb orb-1" aria-hidden="true"></span>
+    <span class="orb orb-2" aria-hidden="true"></span>
+    <div class="hero-inner">
+      <span class="hero-badge"><span class="dot"></span> 12.482 streams ao vivo agora</span>
+      <h1>Onde a comunidade<br><span class="grad">se encontra ao vivo</span></h1>
+      <p>StreamHub é a sua nova plataforma de streaming: descubra criadores, participe do chat e viva experiências únicas — com uma interface moderna, acessível e pensada para você.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="dashboard.html">Explorar streams →</a>
+        <a class="btn btn-ghost btn-lg" href="cadastro.html">Criar conta grátis</a>
+      </div>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-num">12K+</div><div class="stat-label">Streams ao vivo</div></div>
+        <div class="stat"><div class="stat-num">2.4M</div><div class="stat-label">Espectadores</div></div>
+        <div class="stat"><div class="stat-num">180+</div><div class="stat-label">Categorias</div></div>
+        <div class="stat"><div class="stat-num">99,9%</div><div class="stat-label">Uptime</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Em alta agora 🔥</h2>
+          <p class="section-sub">Os streams mais quentes da plataforma neste momento.</p>
+        </div>
+        <a class="btn btn-ghost" href="dashboard.html">Ver todos →</a>
+      </div>
+      <div id="grid-trending" class="grid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Descubra por categoria</h2>
+          <p class="section-sub">Filtre por aquilo que mais combina com você.</p>
+        </div>
+      </div>
+      <div id="chips" class="chips" style="margin-bottom:32px;"></div>
+      <div id="grid-streams" class="grid"></div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-1); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-head" style="justify-content:center; text-align:center; margin-bottom: 44px;">
+        <div>
+          <h2 class="section-title">Pensado para criadores e espectadores</h2>
+          <p class="section-sub">Uma experiência baseada em pesquisa, acessibilidade e design moderno.</p>
+        </div>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🎯</div>
+          <h3>Descoberta inteligente</h3>
+          <p>Filtros por categoria, busca em tempo real e recomendações que respeitam o seu gosto.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">💬</div>
+          <h3>Chat ao vivo</h3>
+          <p>Conversas fluidas com auto-scroll, atalhos de teclado e moderação clara.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">♿</div>
+          <h3>Acessível por padrão</h3>
+          <p>Contraste AA, navegação por teclado, ARIA labels e suporte a movimento reduzido.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🌗</div>
+          <h3>Tema claro & escuro</h3>
+          <p>Alterne entre dark e light mode com um clique — preferência salva automaticamente.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">📱</div>
+          <h3>100% responsivo</h3>
+          <p>Mobile-first com layouts otimizados para celular, tablet e desktop.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">⚡</div>
+          <h3>Performance</h3>
+          <p>HTML, CSS e JS leves — sem frameworks pesados. Carregamento instantâneo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">StreamHub</span></div>
+      <p class="footer-about">A plataforma de streaming moderna, acessível e bonita. Um projeto acadêmico de IHC &amp; UX.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Plataforma</h4>
+      <a href="dashboard.html">Explorar</a>
+      <a href="cadastro.html">Criar conta</a>
+      <a href="login.html">Entrar</a>
+    </div>
+    <div class="footer-col">
+      <h4>Comunidade</h4>
+      <a href="#">Diretrizes</a>
+      <a href="#">Discord</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Suporte</h4>
+      <a href="#">Central de ajuda</a>
+      <a href="#">Acessibilidade</a>
+      <a href="#">Contato</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 StreamHub — Projeto acadêmico IHC &amp; UX. Todos os direitos reservados.</div>
+</footer>
+
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

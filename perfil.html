@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu perfil — StreamHub</title>
+<meta name="description" content="Seu perfil no StreamHub.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body id="perfil-page">
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">StreamHub</span></a>
+    <div class="nav-search">
+      <input id="nav-search-input" type="search" placeholder="Buscar..." aria-label="Buscar">
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="nav-link" href="index.html"><span class="lbl">Início</span></a>
+      <a class="nav-link" href="dashboard.html"><span class="lbl">Explorar</span></a>
+      <button id="theme-toggle" class="icon-btn" title="Alternar tema" aria-label="Alternar tema">☀️</button>
+      <span id="nav-session" style="display:flex;gap:6px;align-items:center;"></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="profile-wrap">
+  <section class="profile-head">
+    <div class="profile-avatar" id="p-avatar">U</div>
+    <div>
+      <div class="profile-name" id="p-name">—</div>
+      <div class="profile-email" id="p-email">—</div>
+      <div class="profile-stats">
+        <span><strong id="p-favs">0</strong> favoritos</span>
+        <span><strong>0</strong> seguindo</span>
+        <span><strong>0</strong> seguidores</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Meus favoritos</h2>
+        <p class="section-sub">Streams que você marcou para acompanhar.</p>
+      </div>
+    </div>
+    <div id="favs-grid" class="grid"></div>
+  </section>
+</main>
+
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

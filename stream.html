@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistindo — StreamHub</title>
+<meta name="description" content="Assistir stream ao vivo no StreamHub.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body id="stream-page">
+<a class="skip-link" href="#main">Pular para conteúdo</a>
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">StreamHub</span></a>
+    <div class="nav-search">
+      <input id="nav-search-input" type="search" placeholder="Buscar..." aria-label="Buscar">
+    </div>
+    <nav class="nav-links" aria-label="Principal">
+      <a class="nav-link" href="index.html"><span class="lbl">Início</span></a>
+      <a class="nav-link" href="dashboard.html"><span class="lbl">Explorar</span></a>
+      <button id="theme-toggle" class="icon-btn" title="Alternar tema" aria-label="Alternar tema">☀️</button>
+      <span id="nav-session" style="display:flex;gap:6px;align-items:center;"></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="stream-layout">
+    <div class="stream-main">
+      <div class="video-frame" role="img" aria-label="Player de vídeo simulado"></div>
+      <div class="stream-info">
+        <div class="card-avatar" id="stream-avatar" aria-hidden="true">N</div>
+        <div>
+          <div class="streamer-name" id="streamer-name">—</div>
+          <div class="stream-title-text" id="stream-title">—</div>
+          <div class="card-category" id="stream-category" style="margin-top:4px;">—</div>
+        </div>
+        <div class="stream-actions">
+          <span class="viewers" style="position:static;" id="viewers-count">0</span>
+          <button class="btn btn-ghost" id="fav-btn">☆ Favoritar</button>
+          <button class="btn btn-primary">Seguir</button>
+        </div>
+      </div>
+      <div style="padding:20px 0; color:var(--text-muted); font-size:.95rem;">
+        <strong style="color:var(--text)">Sobre o stream:</strong> Bem-vindo à transmissão! Use o chat à direita para interagir. Lembre-se das regras da comunidade: respeito acima de tudo.
+      </div>
+    </div>
+
+    <aside class="chat-panel" aria-label="Chat ao vivo">
+      <div class="chat-head">💬 Chat ao vivo</div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <form id="chat-form" class="chat-form">
+        <input type="text" placeholder="Enviar mensagem..." aria-label="Mensagem do chat" maxlength="200">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
+    </aside>
+  </div>
+</main>
+
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
