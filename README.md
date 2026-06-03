@@ -6,6 +6,8 @@
 
 Projeto acadêmico desenvolvido para a disciplina de **Interação Humano-Computador (IHC)** com foco em **Usabilidade, Acessibilidade, Design Thinking e Heurísticas de Nielsen**.
 
+![Capa do Projeto](./assets/images/capa-projeto.png)
+
 </div>
 
 ---
