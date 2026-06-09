@@ -277,6 +277,7 @@ Contendo:
 - [**Gustavo Brunholi**](https://github.com/gubrunholi)
 - [**Henry Silva**](https://github.com/Henrysilva123)
 - [**Yuji**](https://github.com/YujiScripts)
+- [**Leonardo Silva Oliveira**](https://github.com/LeonardoSilva1-hub)
 
 Projeto desenvolvido para fins acadêmicos na disciplina de **Interação Humano-Computador (IHC)**.
 
