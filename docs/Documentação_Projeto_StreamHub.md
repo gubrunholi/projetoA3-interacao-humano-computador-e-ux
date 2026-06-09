@@ -86,7 +86,7 @@ Foram elaboradas duas personas com base nos dados coletados na pesquisa. Cada um
 | Campo               | Informação                                                                                                        |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | **Nome**            | Henry Silva                                                                                                       |
-| **Idade**           | 22 anos                                                                                                           |
+| **Idade**           | 18 anos                                                                                                           |
 | **Perfil**          | Produtor de conteúdo / Streamer iniciante                                                                         |
 | **Nível tecnológico** | Alto — utiliza Twitch e Kick como produtor e consumidor                                                         |
 | **GitHub**          | github.com/Henrysilva123                                                                                          |
@@ -101,10 +101,10 @@ Foram elaboradas duas personas com base nos dados coletados na pesquisa. Cada um
 | Campo               | Informação                                                                                                        |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | **Nome**            | Leonardo Cordeiro                                                                                                 |
-| **Idade**           | 26 anos                                                                                                           |
+| **Idade**           | 18 anos                                                                                                           |
 | **Perfil**          | Espectador frequente de lives e streams                                                                           |
 | **Nível tecnológico** | Médio — usa Twitch, Kick e YouTube ao vivo regularmente                                                        |
-| **GitHub**          | —                                                                                                                 |
+| **GitHub**          | itslcordeiro                                                                                                                |
 | **Objetivos**       | Assistir lives e streams dos criadores que acompanha; descobrir novos conteúdos de forma rápida e organizada; interagir no chat sem perder o fio da transmissão; ter controle sobre notificações e recomendações da plataforma |
 | **Frustrações**     | Interface poluída dificulta encontrar o que deseja rapidamente; chat de streams populares avança rápido demais e se torna ilegível; recomendações pouco relevantes que não refletem seus interesses; botões de subscrição paga confundidos com ações gratuitas de seguir |
 | **Necessidades**    | Página inicial limpa com destaque para conteúdos relevantes; controle de velocidade ou pausa do chat ao vivo; sistema de favoritos para acompanhar criadores específicos; diferenciação visual clara entre ações pagas e gratuitas |
@@ -383,8 +383,8 @@ O processo de Design Thinking foi fundamental para garantir que as decisões fos
 
 | Integrante              | GitHub             | Contribuição principal                                       |
 |-------------------------|--------------------|--------------------------------------------------------------|
-| Antonio Augusto         | @auguxtodev        | Design system, componentes CSS, responsividade               |
-| Gustavo Brunholi        | @gubrunholi        | Arquitetura JS, LocalStorage, autenticação                   |
-| Henry Silva             | @Henrysilva123     | Pesquisa com usuários, personas, testes de usabilidade       |
-| Leonardo Silva Oliveira | @LeonardoSilva1-hub | Prototipagem, análise heurística, implementação do chat     |
-| Yuji                    | @YujiScripts       | Implementação de páginas, revisão de acessibilidade          |
+| Antonio Augusto         | [auguxtodev](https://github.com/auguxtodev)        | Design system, componentes CSS, responsividade               |
+| Gustavo Brunholi        | [gubrunholi](https://github.com/gubrunholi)        | Arquitetura JS, LocalStorage, autenticação                   |
+| Henry Silva             | [Henrysilva123](https://github.com/Henrysilva123)     | Pesquisa com usuários, personas, testes de usabilidade       |
+| Leonardo Silva Oliveira | [LeonardoSilva1-hub](https://github.com/LeonardoSilva1-hub) | Prototipagem, análise heurística, implementação do chat     |
+| Yuji                    | [YujiScripts](https://github.com/YujiScripts)       | Implementação de páginas, revisão de acessibilidade          |
