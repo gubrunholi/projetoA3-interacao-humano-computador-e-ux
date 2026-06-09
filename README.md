@@ -1,4 +1,4 @@
-# 🎥 StreamHub
+# StreamHub
 
 <div align="center">
 
@@ -12,7 +12,7 @@ Projeto acadêmico desenvolvido para a disciplina de **Interação Humano-Comput
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O **StreamHub** é uma plataforma de streaming inspirada em serviços como Twitch e Kick, desenvolvida com o objetivo de aplicar, na prática, conceitos fundamentais de **Experiência do Usuário (UX)** e **Interação Humano-Computador (IHC)**.
 
@@ -22,7 +22,7 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 - Aplicar conceitos de UX e IHC em um projeto real.
 - Desenvolver uma interface intuitiva e acessível.
@@ -33,41 +33,41 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 👤 Autenticação
+### Autenticação
 
 - Cadastro de usuários
 - Login com validação
 - Controle de sessão
 - Logout
 
-### 📺 Streaming
+### Streaming
 
 - Página inicial com streams em destaque
 - Dashboard para exploração de conteúdo
 - Categorias organizadas
 - Busca em tempo real
 
-### ❤️ Favoritos
+### Favoritos
 
 - Adicionar streams aos favoritos
 - Remover favoritos
 - Persistência utilizando LocalStorage
 
-### 💬 Interação
+### Interação
 
 - Chat ao vivo simulado
 - Feedback visual através de Toasts
 - Microinterações na interface
 
-### 🎨 Personalização
+### Personalização
 
 - Dark Mode (padrão)
 - Light Mode
 - Persistência de preferência de tema
 
-### 📱 Responsividade
+### Responsividade
 
 - Mobile First
 - Layout adaptável para tablets
@@ -75,7 +75,7 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 ---
 
-## ♿ Acessibilidade
+## Acessibilidades
 
 O projeto foi desenvolvido considerando princípios de acessibilidade digital:
 
@@ -90,7 +90,7 @@ O projeto foi desenvolvido considerando princípios de acessibilidade digital:
 
 ---
 
-## 🧠 Conceitos de IHC Aplicados
+## Conceitos de IHC Aplicados
 
 ### Design Thinking
 
@@ -131,7 +131,7 @@ Foram realizadas avaliações de tarefas críticas como:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Front-End
 
@@ -150,7 +150,7 @@ Foram realizadas avaliações de tarefas críticas como:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 StreamHub/
@@ -178,23 +178,7 @@ StreamHub/
 
 ---
 
-## 🚀 Como Executar
-
-### Método 1 — Simples
-
-1. Faça o download do projeto.
-2. Extraia o arquivo `.zip`.
-3. Abra o arquivo `index.html` em qualquer navegador moderno.
-
-### Método 2 — VS Code
-
-1. Abra a pasta do projeto no VS Code.
-2. Instale a extensão **Live Server**.
-3. Clique em **Open with Live Server**.
-
----
-
-## 📷 Telas do Sistema
+## Telas do Sistema
 
 ### Página Inicial
 
@@ -223,25 +207,25 @@ StreamHub/
 
 ---
 
-## 📊 Principais Diferenciais
+## Principais Diferenciais
 
-✅ Aplicação prática de conceitos de IHC
+- Aplicação prática de conceitos de IHC
 
-✅ Interface moderna inspirada em plataformas reais
+- Interface moderna inspirada em plataformas reais
 
-✅ Design Responsivo
+- Design Responsivo
 
-✅ Dark/Light Mode
+- Dark/Light Mode
 
-✅ Persistência de dados com LocalStorage
+- Persistência de dados com LocalStorage
 
-✅ Acessibilidade integrada ao projeto
+- Acessibilidade integrada ao projeto
 
-✅ Documentação acadêmica completa
+- Documentação acadêmica completa
 
 ---
 
-## ⚠️ Limitações
+## Limitações
 
 Por se tratar de um projeto acadêmico focado em Front-End:
 
@@ -254,24 +238,7 @@ Essas limitações foram aceitas para manter o foco nos conceitos de UX, UI e IH
 
 ---
 
-## 📚 Documentação
-
-A documentação completa pode ser encontrada na pasta:
-
-```text
-/docs
-```
-
-Contendo:
-
-- Personas
-- Design Thinking
-- Heurísticas de Nielsen
-- Testes de Usabilidade
-
----
-
-## 👨‍💻 Autores
+## Autores
 
 - [**Antonio Augusto**](https://github.com/auguxtodev)
 - [**Gustavo Brunholi**](https://github.com/gubrunholi)
@@ -282,10 +249,3 @@ Contendo:
 Projeto desenvolvido para fins acadêmicos na disciplina de **Interação Humano-Computador (IHC)**.
 
 ---
-
-## 📄 Licença
-
-Este projeto foi desenvolvido exclusivamente para fins educacionais e acadêmicos.
-
----
-⭐ Caso tenha gostado do projeto, deixe uma estrela no repositório.
