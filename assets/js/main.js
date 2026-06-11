@@ -3,16 +3,11 @@
 
 const STREAMS = [
   { id: 's1', title: 'Speedrun Elden Ring - Tentando World Record', user: 'NovaPlay', cat: 'Elden Ring', viewers: 24531, thumb: 'assets/images/thumb-1.jpg' },
-  { id: 's2', title: 'Construindo uma cidade futurista no Minecraft', user: 'PixelLuna', cat: 'Minecraft', viewers: 12104, thumb: 'assets/images/thumb-2.jpg' },
-  { id: 's3', title: 'React + TanStack ao vivo: refatorando uma SPA', user: 'devCarla', cat: 'Programação', viewers: 3820, thumb: 'assets/images/thumb-3.jpg' },
-  { id: 's4', title: 'Conversando sobre UX: heurísticas de Nielsen', user: 'UXFlavio', cat: 'Just Chatting', viewers: 1532, thumb: 'assets/images/thumb-4.jpg' },
   { id: 's5', title: 'CS2 Ranked - Subindo até Global', user: 'Fallen', cat: 'CS2', viewers: 18921, thumb: 'assets/images/thumb-5.jpg' },
-  { id: 's6', title: 'Cozinhando lasanha', user: 'ChefOtto', cat: 'IRL', viewers: 765, thumb: 'assets/images/thumb-6.jpg' },
-  { id: 's7', title: 'Música ao vivo - Lo-fi para estudar', user: 'SoundWave', cat: 'Música', viewers: 4210, thumb: 'assets/images/thumb-7.jpg' },
   { id: 's8', title: 'TCK - Valorant Todos os atos', user: 'TCK', cat: 'Valorant', viewers: 9412, thumb: 'assets/images/thumb-8.jpg' },
 ];
 
-const CATEGORIES = ['Todas', 'Just Chatting', 'Minecraft', 'CS2', 'Valorant', 'Programação', 'Música', 'IRL'];
+const CATEGORIES = ['Todas', 'CS2', 'Valorant', 'Elden Ring'];
 
 function fmtViewers(n) {
   if (n >= 1000) return (n/1000).toFixed(1).replace('.0','') + 'K';
@@ -60,7 +55,6 @@ function renderChips(containerId) {
   });
 }
 
-// ============ THEME TOGGLE ============
 function initTheme() {
   const saved = Storage.get(Storage.KEYS.THEME, 'dark');
   if (saved === 'light') document.body.classList.add('light');
@@ -77,7 +71,6 @@ function initTheme() {
   }
 }
 
-// ============ NAVBAR (sessão) ============
 function renderNavSession() {
   const slot = document.getElementById('nav-session');
   if (!slot) return;
