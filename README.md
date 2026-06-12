@@ -37,7 +37,7 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 <div align="center">
 
-### 🎨 Prototipação e Design da Interface
+### Prototipação e Design da Interface
 
 Acesse a versão completa do protótipo desenvolvido no Figma.
 
