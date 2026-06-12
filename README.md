@@ -41,7 +41,7 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 Acesse a versão completa do protótipo desenvolvido no Figma.
 
-[![Figma](https://img.shields.io/badge/Acessar%20Protótipo-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](COLE_AQUI_O_LINK_DO_FIGMA)
+[![Figma](https://img.shields.io/badge/Acessar%20Protótipo-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/2FcVYqq4RcPTTn5KPhHXJV/projetoA3-interacao-humano-computador-e-ux?node-id=0-1&t=9jA4O6NTTC0aKKUb-1)
 
 </div>
 
