@@ -33,6 +33,22 @@ Além do desenvolvimento da interface, foram aplicados processos de **Design Thi
 
 ---
 
+## Protótipo no Figma
+
+<div align="center">
+
+### 🎨 Prototipação e Design da Interface
+
+Acesse a versão completa do protótipo desenvolvido no Figma.
+
+[![Figma](https://img.shields.io/badge/Acessar%20Protótipo-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](COLE_AQUI_O_LINK_DO_FIGMA)
+
+</div>
+
+O protótipo foi desenvolvido durante a etapa de Design Thinking e serviu como base para a implementação da interface final do StreamHub, permitindo validar fluxos de navegação, componentes visuais e requisitos de usabilidade.
+
+---
+
 ## Funcionalidades
 
 ### Autenticação
